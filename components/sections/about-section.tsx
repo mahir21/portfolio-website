@@ -1,9 +1,9 @@
 "use client";
 
-import Image from "next/image";
 import { motion } from "framer-motion";
 import { aboutContent } from "@/lib/content";
 import { CodePanel } from "@/components/shared/code-panel";
+import { TechOrbit } from "@/components/three/tech-orbit";
 
 const codeLines = [
   { content: "export const MahirJeet = () => ({", accent: true },
@@ -74,20 +74,12 @@ export function AboutSection() {
           viewport={{ once: true, amount: 0.35 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          <div className="about-portrait">
-            <Image
-              src={aboutContent.portrait}
-              alt={aboutContent.portraitAlt}
-              width={520}
-              height={520}
-              priority
-            />
-          </div>
+          <TechOrbit />
           <CodePanel
             title="profile"
             fileName="about.ts"
             lines={codeLines}
-            delay={0.2}
+            delay={0.35}
           />
         </motion.div>
       </div>

@@ -1,10 +1,10 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowRight, Download } from "lucide-react";
 import { heroContent } from "@/lib/content";
-import { TechOrbit } from "@/components/three/tech-orbit";
 import { CodePanel } from "@/components/shared/code-panel";
 
 const codeLines = [
@@ -81,12 +81,30 @@ export function HeroSection() {
         </div>
 
         <div className="hero-visuals">
-          <TechOrbit />
+          <motion.div
+            className="hero-portrait"
+            initial={{ opacity: 0, scale: 0.94, y: 18 }}
+            animate={{ opacity: 1, scale: 1, y: 0 }}
+            transition={{
+              delay: 0.7,
+              duration: 0.65,
+              ease: [0.22, 1, 0.36, 1],
+            }}
+          >
+            <Image
+              src={heroContent.photo}
+              alt={heroContent.photoAlt}
+              width={480}
+              height={480}
+              className="hero-portrait-image"
+              priority
+            />
+          </motion.div>
           <CodePanel
             title="Status"
             fileName="profile.ts"
             lines={codeLines}
-            delay={0.4}
+            delay={0.85}
           />
         </div>
       </div>

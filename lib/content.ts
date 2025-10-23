@@ -3,9 +3,11 @@ export const heroContent = {
   title: "Software Engineer",
   tagline: "Blending immersive web aesthetics with resilient engineering.",
   highlights: ["Immersive UI", "Full-stack Systems", "Creative Coding"],
-  location: "Toronto, Canada",
+  location: "New York City, USA",
   availability: "Available for freelance and full-time roles",
   resumeUrl: "https://example.com/mahir-jeet-resume.pdf",
+  photo: "/images/mahir.png",
+  photoAlt: "Portrait of Mahir Jeet with neon accents",
 };
 
 export const aboutContent = {
@@ -14,8 +16,6 @@ export const aboutContent = {
     "With a background that spans creative coding studios and growth-stage startups, Mahir thrives where design, storytelling, and technical rigor intersect.",
     "He experiments with real-time graphics, builds component systems, and shapes product strategies that scale.",
   ],
-  portrait: "/images/mahir-portrait.svg",
-  portraitAlt: "Abstract portrait illustration of Mahir Jeet",
   skillGroups: [
     {
       label: "Core Stack",
@@ -107,7 +107,6 @@ export const contactContent = {
   socials: [
     { label: "GitHub", url: "https://github.com/mahir-jeet" },
     { label: "LinkedIn", url: "https://linkedin.com/in/mahir-jeet" },
-    { label: "Dribbble", url: "https://dribbble.com/mahir-jeet" },
   ],
   availabilityNote:
     "Currently collaborating on immersive data experiences. Open to select freelance partnerships for winter 2025.",

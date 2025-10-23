@@ -18,7 +18,8 @@ export function SiteFooter() {
           © {new Date().getFullYear()} Mahir Jeet
         </span>
         <p className="site-footer__tagline">
-          Code, craft, and curiosity from Toronto.
+          Blending immersive web aesthetics with resilient engineering. Based in
+          New York City, USA.
         </p>
       </div>
       <div className="site-footer__links">
