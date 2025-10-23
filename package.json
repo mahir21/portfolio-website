@@ -1,0 +1,30 @@
+{
+  "name": "mahir-jeet-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.88.8",
+    "@react-three/fiber": "^8.15.19",
+    "clsx": "^2.1.0",
+    "framer-motion": "^11.0.8",
+    "lucide-react": "^0.360.0",
+    "next": "14.2.33",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "three": "^0.161.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@types/react": "^18.2.74",
+    "@types/react-dom": "^18.2.24",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.5",
+    "typescript": "5.4.5"
+  }
+}

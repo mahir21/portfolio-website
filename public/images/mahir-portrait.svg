@@ -1,0 +1,33 @@
+<svg width="800" height="960" viewBox="0 0 800 960" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="960" rx="48" fill="#070713"/>
+  <g filter="url(#blurGlow)">
+    <circle cx="280" cy="220" r="180" fill="#7A4BFF" fill-opacity="0.45"/>
+    <circle cx="560" cy="620" r="240" fill="#1B3B8C" fill-opacity="0.4"/>
+  </g>
+  <g filter="url(#innerGlow)">
+    <path d="M400 210C465 210 515 260 515 330C515 395 467 450 400 450C333 450 285 395 285 330C285 260 335 210 400 210Z" fill="url(#faceGrad)"/>
+    <rect x="255" y="460" width="290" height="280" rx="140" fill="url(#bodyGrad)"/>
+    <path d="M300 560C355 620 445 620 500 560" stroke="rgba(255,255,255,0.25)" stroke-width="18" stroke-linecap="round"/>
+    <path d="M340 330C340 312 356 296 374 296H426C444 296 460 312 460 330" stroke="rgba(6,14,35,0.85)" stroke-width="24" stroke-linecap="round"/>
+    <circle cx="360" cy="340" r="24" fill="rgba(6,14,35,0.85)"/>
+    <circle cx="440" cy="340" r="24" fill="rgba(6,14,35,0.85)"/>
+    <circle cx="360" cy="340" r="10" fill="#F5F7FF"/>
+    <circle cx="440" cy="340" r="10" fill="#F5F7FF"/>
+  </g>
+  <defs>
+    <filter id="blurGlow" x="-60" y="-120" width="980" height="1180" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="80"/>
+    </filter>
+    <filter id="innerGlow" x="200" y="200" width="400" height="560" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="60" stdDeviation="90" flood-color="rgba(7,8,22,0.65)"/>
+    </filter>
+    <linearGradient id="faceGrad" x1="285" y1="210" x2="505" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#BBA6FF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#7254FF" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="bodyGrad" x1="255" y1="460" x2="545" y2="740" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0D1228"/>
+      <stop offset="1" stop-color="#141A34"/>
+    </linearGradient>
+  </defs>
+</svg>

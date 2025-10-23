@@ -1,0 +1,21 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" rx="32" fill="#080B1A"/>
+  <g filter="url(#blurField)">
+    <circle cx="240" cy="220" r="160" fill="#7A4BFF" fill-opacity="0.32"/>
+    <circle cx="520" cy="420" r="200" fill="#1B3B8C" fill-opacity="0.3"/>
+  </g>
+  <rect x="150" y="140" width="520" height="320" rx="26" fill="#0E1328" stroke="rgba(255,255,255,0.07)"/>
+  <path d="M210 220C260 190 290 260 340 240C390 220 430 270 470 250C510 230 530 280 580 260" stroke="url(#lineGrad)" stroke-width="8" stroke-linecap="round"/>
+  <rect x="210" y="295" width="140" height="10" rx="5" fill="#C7B6FF"/>
+  <rect x="360" y="295" width="190" height="10" rx="5" fill="#6C7BFF"/>
+  <rect x="210" y="320" width="310" height="10" rx="5" fill="#253B91"/>
+  <defs>
+    <filter id="blurField" x="0" y="0" width="800" height="600" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="80"/>
+    </filter>
+    <linearGradient id="lineGrad" x1="210" y1="240" x2="580" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#BBA6FF"/>
+      <stop offset="1" stop-color="#6F8DFF"/>
+    </linearGradient>
+  </defs>
+</svg>
