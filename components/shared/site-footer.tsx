@@ -7,7 +7,7 @@ const footerLinks = [
     href: "https://linkedin.com/in/mahir-jeet",
     icon: Linkedin,
   },
-  { label: "Email", href: "mailto:mahir.jeet@example.com", icon: Mail },
+  { label: "Email", href: "mailto:mahirjeetts4u@gmail.com", icon: Mail },
 ];
 
 export function SiteFooter() {

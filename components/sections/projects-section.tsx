@@ -9,9 +9,9 @@ import { CodePanel } from "@/components/shared/code-panel";
 
 const codeLines = [
   { content: "const featuredProjects = [", accent: true },
-  { content: '  "Pulse Horizon",', indent: 1 },
-  { content: '  "Aurora Scribe",', indent: 1 },
-  { content: '  "Linea Flow"', indent: 1 },
+  { content: '  "Audio Shop Ecommerce",', indent: 1 },
+  { content: '  "SkillsHub",', indent: 1 },
+  { content: '  "Bangla Mart"', indent: 1 },
   { content: "];", accent: true },
   { content: "deploy(featuredProjects);", muted: true },
 ];
@@ -54,12 +54,21 @@ export function ProjectsSection() {
           {projects.map((project) => (
             <article key={project.name} className="project-card">
               <div className="project-card__image">
-                <Image
-                  src={project.image}
-                  alt={project.imageAlt}
-                  width={560}
-                  height={360}
-                />
+                {typeof project.image === "string" && project.image.trim().startsWith("<svg") ? (
+                  <div
+                    role="img"
+                    aria-label={project.imageAlt}
+                    className="project-card__image--svg"
+                    dangerouslySetInnerHTML={{ __html: project.image }}
+                  />
+                ) : (
+                  <Image
+                    src={project.image}
+                    alt={project.imageAlt}
+                    width={560}
+                    height={360}
+                  />
+                )}
               </div>
               <div className="project-card__meta">
                 <span className="project-card__name">{project.name}</span>

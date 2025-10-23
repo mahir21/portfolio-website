@@ -8,7 +8,7 @@ import { CodePanel } from "@/components/shared/code-panel";
 
 const codeLines = [
   {
-    content: 'const inbox = createInbox("mahir.jeet@example.com");',
+    content: 'const inbox = createInbox("mahirjeetts4u@gmail.com");',
     accent: true,
   },
   { content: "inbox.on('collaboration', (idea) => {", indent: 0, muted: true },

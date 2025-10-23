@@ -128,7 +128,7 @@ export function SiteHeader() {
         </ul>
       </nav>
       <div className="site-cta">
-        <a href="mailto:mahir.jeet@example.com" className="cta-button">
+        <a href="mailto:mahirjeetts4u@gmail.com" className="cta-button">
           <span className="cta-label">Let's collaborate</span>
         </a>
       </div>
@@ -173,7 +173,7 @@ export function SiteHeader() {
                 })}
               </ul>
               <a
-                href="mailto:mahir.jeet@example.com"
+                href="mailto:mahirjeetts4u@gmail.com"
                 className="mobile-nav-cta"
               >
                 Let's collaborate
