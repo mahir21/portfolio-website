@@ -139,7 +139,7 @@ export const skills: string[] = [
 
 export const socials: Social[] = [
 	{ name: "GitHub", href: "https://github.com/mahir21" },
-	{ name: "LinkedIn", href: "https://www.linkedin.com/in/mahir-frontend-developer/" },
+	{ name: "LinkedIn", href: "https://www.linkedin.com/in/mahirjeet/" },
 ];
 
 export const codePanels = [
@@ -188,7 +188,7 @@ export const contactContent = {
 	email: "mahirjeetts4u@gmail.com",
 	socials: [
 		{ label: "GitHub", url: "https://github.com/mahir21" },
-		{ label: "LinkedIn", url: "https://www.linkedin.com/in/mahir-frontend-developer/" }
+		{ label: "LinkedIn", url: "https://www.linkedin.com/in/mahirjeet/" }
 	],
 };
 

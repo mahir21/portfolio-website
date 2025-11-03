@@ -1,10 +1,10 @@
 import { Github, Linkedin, Mail } from "lucide-react";
 
 const footerLinks = [
-  { label: "GitHub", href: "https://github.com/mahir-jeet", icon: Github },
+  { label: "GitHub", href: "https://github.com/mahir21", icon: Github },
   {
     label: "LinkedIn",
-    href: "https://linkedin.com/in/mahir-jeet",
+    href: "https://www.linkedin.com/in/mahirjeet/",
     icon: Linkedin,
   },
   { label: "Email", href: "mailto:mahirjeetts4u@gmail.com", icon: Mail },
